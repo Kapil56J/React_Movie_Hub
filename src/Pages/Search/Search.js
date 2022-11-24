@@ -50,7 +50,7 @@ const Search = () => {
     // eslint-disable-next-line
   }, [type, page]);
 
-  return (
+  return (  
     <div>
       <ThemeProvider theme={darkTheme}>
         <div className="search">
@@ -104,7 +104,8 @@ const Search = () => {
       {numOfPages > 1 && (
         <CustomPagination setPage={setPage} numOfPages={numOfPages} />
       )}
-    </div>
+      
+    </div> 
   );
 };
 
